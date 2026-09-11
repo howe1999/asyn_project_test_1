@@ -1,0 +1,18 @@
+{
+  "name": "sefaz-sc-provider",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "SC (Santa Catarina) NFC-e provider/adapter for leap-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "start": "node cli.js",
+    "check": "node --check accessKey.js && node --check parser.js && node --check provider.js && node --check cli.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.0"
+  }
+}
